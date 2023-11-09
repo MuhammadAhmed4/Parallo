@@ -1,0 +1,67 @@
+/* Navbar */
+
+#nav::before{
+    width: 370px;
+  
+}
+#nav{
+    width: 370px;
+    /* border: 2px solid white; */
+    
+}
+#nav ul li a{
+    padding: 10px 15px;
+}
+
+
+
+/* about */
+#about{
+    /* height: 550px; */
+    margin-top: 10px;
+}
+#about .part1{
+    height: 300px;
+}
+#about .part2{
+    margin-top: 50px;
+}
+
+
+/* Services */
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact*/
+#contact::before{
+    content: "";
+    height: 900px;
+    width: 90%;
+    background-color: white;    
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* background-color: brown; */
+}
+
+#tact{
+    height: 520px;
+    width: 300px;
+    margin: 20px 10px;
+    background-color: white;
+}
+#tact button{
+    margin-left: 50px;
+}

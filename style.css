@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: url(tom-barrett-OQL4DLy3Nys-unsplash.jpg) no-repeat center center/cover;
+    
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* #logo::before{
+ content: "";
+ height: 150px;
+ width: 200px;
+ background-color: white;
+ position: absolute;
+ z-index: -1;
+} */
+#logo::before{
+    content: "";
+    height: 150px;
+    width: 300px;
+    background-color: white;    
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+}
+#logo{
+    height: 150px;
+    width: 300px;
+    border: 2px solid white;
+    margin: 30px 0px;
+}
+#logo h1{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 40px;    
+    color: rgb(83, 77, 77);
+}
+
+#logo p{
+    font-size: 0.8rem;
+    text-align: center; 
+    color: rgb(83, 77, 77);
+}
+
+
+
+
+#nav::before{
+    content: "";
+    height: 50px;
+    width: 550px;
+    background-color: white;    
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+}
+#nav{
+    height: 50px;
+    width: 550px;
+    /* border: 2px solid white; */
+    
+}
+
+#nav ul{
+    display: flex;
+    
+}
+#nav ul li{
+    list-style: none;
+    
+}
+#nav ul li a{
+    color: rgb(83, 77, 77);
+    text-decoration: none;
+    padding: 10px 40px;
+    position: relative;
+    top: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#nav a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+/* About */
+#about{
+    padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   /* height: 700px; */
+   width: 80%;
+   margin: auto;
+   flex-wrap: wrap;
+   /* justify-content: center; */
+   /* align-items: center; */
+
+
+}
+#about .part1{
+    height: 500px;
+    width: 300px;
+    margin-top: 50px;
+}
+#about .part1 #para{
+    padding: 15px 0px;
+    color: rgb(228, 211, 211);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#about .part1 h1{
+    color:white;
+    padding: 20px 0px;
+    font-size: 2.2rem;
+}
+#about .part1 p{
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    
+}
+#about .btn{
+    padding: 7px 18px;
+    display: block;
+    height: 35px;
+    background-color: transparent;
+    margin: 10px 50px;
+    border-radius: 12px ;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+}
+#about .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#about .part2{
+    height: 500px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#about .part2 .box{
+    height: 470px;
+    width:280px;
+    border: 3px solid white;
+    border-radius: 12px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#about .part2 .box p{
+    font-size:1.5rem ;
+    font-weight: bold;
+}
+#about .part2 .box .box1{
+    height: 130px;
+    width:260px ;
+    background-color: rgb(127, 214, 255);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+
+}
+#about .part2 .box .box1 h1{
+    font-size: 1.8rem;
+    color: white ;
+    padding: 10px;
+}
+#about .part2 .box .box1 img{
+    filter: invert();
+    height: 40px;
+    
+}
+
+
+
+#about .part2 .box .box2{
+    height: 80px;
+    width:260px ;
+    background-color: rgb(127, 182, 255);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+#about .part2 .box .box2 h1{
+    font-size: 1.8rem;
+    color: white ;
+    padding: 10px;
+}
+#about .part2 .box .box2 img{
+    filter: invert();
+    height: 40px;
+    
+}
+
+#about .part2 .box .box3{
+    height: 100px;
+    width:260px ;
+    background-color: rgb(127, 255, 155);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+#about .part2 .box .box3 h1{
+    font-size: 1.8rem;
+    color: white ;
+    padding: 10px;
+}
+#about .part2 .box .box3 img{
+    filter: invert();
+    height: 40px;
+    
+}
+
+/* Services */
+#services{
+    /* height: 80%px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    height: 300px ;
+    width: 250px;
+    padding: 50px 60px;
+}
+
+.service h1{
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(83, 77, 77);;
+}
+.service img{
+    display: block;
+    height: 80px;
+    margin: auto;
+    
+}
+.service p{
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(83, 77, 77);
+}
+.service::before{
+    content: "";
+    height: 300px;
+    width: 250px;
+    background-color: white;    
+    opacity: 0.8;
+    position: absolute;
+    
+    z-index: -1;
+}
+
+
+
+/* Contact */
+#contact::before{
+    content: "";
+    height: 600px;
+    width: 90%;
+    background-color: white;    
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* background-color: brown; */
+}
+#con{
+    height: 300px;
+    width: 300px;
+    background: url(rezvani-MnPWB-ybjHQ-unsplash.jpg) no-repeat center center/cover;
+    border: 3px solid white;
+    margin: 20px 10px;
+}
+#tact{
+    height: 300px;
+    width: 700px;
+    margin: 20px 10px;
+    background-color: white;
+}
+#tact h1{
+    padding: 30px 50px;
+    font-size: 2.2rem;
+    color:  rgb(83, 77, 77);
+}
+#tact p{
+    padding: 10px 50px;
+    /* font-size: 1.2rem; */
+    color:  rgb(83, 77, 77);
+}
+#tact input{
+    margin: 20px 50px;
+    padding: 10px 0px;
+    width: 200px;
+    font-size: .8rem;
+    color:  rgb(83, 77, 77);
+}
+#tact button{
+    padding: 7px 18px;
+    /* display: block; */
+    height: 35px;
+    background-color: rgb(50, 98, 201);
+    /* margin: 15px auto; */
+    border-radius: 12px ;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    height: 50px;
+    /* width: 100%; */
+    padding: 10px;
+}
